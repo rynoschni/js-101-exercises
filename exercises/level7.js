@@ -3,3 +3,11 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+let num = 7;
+function finalFunction() {
+  let arr = [];
+  for (let i = 0; i <= num - 1; i++) {
+    arr.push("hello");
+  }
+  return arr;
+}
